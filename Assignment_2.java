@@ -116,6 +116,7 @@ public class Assignment_2{
                     int conf = read.nextInt();
                     if(conf==1){
                         System.out.println("\nThank you for using the program!\n");
+                        read.close();
                         System.exit(0);
                     }else{
                         break;

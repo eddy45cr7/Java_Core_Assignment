@@ -1,13 +1,6 @@
 import Assignment_2.*;
 import java.util.Scanner;
 
-class ShapeName{
-    String[] shapes;
-    ShapeName(){
-
-    }
-}
-
 public class Assignment_2{
     public static void main(String[] args) {
 

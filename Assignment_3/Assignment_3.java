@@ -14,7 +14,6 @@ class Assignment_3{
     }*/
 
     public static void main(String[] args) {
-        String str = "atherv",s = "atharv";
-        System.out.println(Sorter.stringCompAsc(str,s));
+        System.out.println(Sorter.sorterAsc(1));
     }
 }

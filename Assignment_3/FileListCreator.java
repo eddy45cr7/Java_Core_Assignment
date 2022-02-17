@@ -1,14 +1,13 @@
 package Assignment_3;
 
-import java.util.Scanner;
+import java.util.*;
 import java.io.File;
 import java.io.FileWriter;
-import java.util.ArrayList;
 
 class FileListCreator {
-    public static ArrayList<ArrayList<String>> lister() {
+    public static List<ArrayList<String>> lister() {
         ArrayList<String> ele = new ArrayList<String>();
-        ArrayList<ArrayList<String>> lis = new ArrayList<ArrayList<String>>();
+        List<ArrayList<String>> lis = new ArrayList<>();
         try{
             File fil = new File("E:\\Java_Core_Assignments\\Assignment_3\\emp_info.txt");
             Scanner read = new Scanner(fil);

@@ -1,15 +1,13 @@
 package Assignment_3;
 
 import java.util.Scanner;
-import java.io.File;
-import java.io.FileWriter;
 import java.util.ArrayList;
 
 public class ListFormatter {
     public static ArrayList<String> inputListMaker() {
         Scanner scn = new Scanner(System.in);
         String val;
-        ArrayList<String> cont = new ArrayList<String>();
+        ArrayList<String> cont = new ArrayList<>();
         int sno = GiveCount.counter();
 
         cont.add(String.valueOf(sno));

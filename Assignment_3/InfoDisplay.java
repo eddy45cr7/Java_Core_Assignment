@@ -6,11 +6,8 @@ import java.util.Scanner;
 
 public class InfoDisplay extends Selecter{
     public static void display(){
-        ArrayList<String> lis = new ArrayList<String>();
-        int ind = 0;
+        ArrayList<String> lis = new ArrayList<>();
         try{
-            File fil = new File("E:\\Java_Core_Assignments\\Assignment_3\\emp_info.txt");
-            Scanner read = new Scanner(fil);
             System.out.println("\nHere are the currently stored records : ");
             for(int i =0;i<GiveCount.counter();i++){
                 lis = selecter(i);

@@ -6,7 +6,7 @@ import java.io.File;
 
 public class Selecter {
     public static ArrayList<String> selecter(int i){
-        ArrayList<String> info = new ArrayList<String>();
+        ArrayList<String> info = new ArrayList<>();
         try{
             File fil = new File("E:\\Java_Core_Assignments\\Assignment_3\\emp_info.txt");
             Scanner read = new Scanner(fil);

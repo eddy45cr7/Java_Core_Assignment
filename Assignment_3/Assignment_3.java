@@ -10,10 +10,14 @@ class Assignment_3{
     /*static void addToFile(){
         ArrayList<String> values = new ArrayList<String>();
         values = ListFormatter.inputListMaker();
-        Writer.wri(values);
+        Writer.append(values);
     }*/
 
+    static void sorter(int i){
+
+    }
+
     public static void main(String[] args) {
-        System.out.println(Sorter.sorterAsc(1));
+        System.out.println(GiveCount.counter());
     }
 }

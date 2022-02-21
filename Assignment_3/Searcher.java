@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Searcher {
-    public static int search(String s,int cind){
+    public static int search(String s){
         int index = -1;
         ArrayList<String> inf = new ArrayList<String>();
         List<ArrayList<String>> filelist = new ArrayList<>();

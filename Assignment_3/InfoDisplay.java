@@ -1,8 +1,6 @@
 package Assignment_3;
 
 import java.util.ArrayList;
-import java.io.File;
-import java.util.Scanner;
 
 public class InfoDisplay extends Selecter{
     public static void display(){

@@ -3,7 +3,7 @@ package Assignment_3;
 import java.util.ArrayList;
 import java.util.List;
 
-class Searcher {
+public class Searcher {
     public static int search(String s){
         int index = -1;
         ArrayList<String> inf = new ArrayList<String>();

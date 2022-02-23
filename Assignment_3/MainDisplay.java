@@ -1,10 +1,7 @@
 package Assignment_3;
 
-import java.util.Scanner;
-
 public class MainDisplay {
     public static int disel(){
-        Scanner scn = new Scanner(System.in);
         System.out.println("\nSelect what you want to do : ");
         System.out.println("\n1) Display all info ");
         System.out.println("2) Search  ");

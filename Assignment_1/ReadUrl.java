@@ -22,7 +22,8 @@ public class ReadUrl {
                 sb.append(line);
                 sb.append(System.lineSeparator());
             }
-            String s=sb.toString();
+            String se=sb.toString();
+            String s = se.toUpperCase();
             String[] str = s.split(">");
             star = Arrays.stream(str).toList();
         }catch(Exception e){

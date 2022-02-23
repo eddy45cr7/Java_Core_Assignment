@@ -24,11 +24,10 @@ public class WordCounter {
                 String s = sb.toString();
                 String[] st = s.split(">");
                 for (String j : st) {
-                    if (j.contains("day")) {
+                    if (j.contains(i)) {
                         count++;
                     }
                 }
-                System.out.println(count);
             } catch (Exception e) {
                 System.out.println("error");
             }
@@ -43,7 +42,9 @@ public class WordCounter {
         int count=0;
         while(it.hasNext()){
             s = it.next().toString();
-            count = counting(s);
+            int tcount = Integer.parseInt(wordcount.get(s).toString());
+            int adding = counting(s);
+            count = tcount+adding;
             wordcount.replace(s,0,count);
         }
         return wordcount;

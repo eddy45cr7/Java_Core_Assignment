@@ -10,12 +10,13 @@ import java.util.Scanner;
 public class Words {
     public static ArrayList<String> wordArray(){
         ArrayList<String> arrlis = new ArrayList<>();
-        String s;
+        String s,se;
         try {
             File fil = new File("E:\\Java_Core_Assignments\\Assignment_1\\words.txt");
             Scanner read = new Scanner(fil);
             while(read.hasNextLine()){
-                s = read.nextLine();
+                se = read.nextLine();
+                s = se.toUpperCase();
                 arrlis.add(s);
             }
         }catch(Exception e){
@@ -27,12 +28,13 @@ public class Words {
 
     public static HashMap<String,Integer> wordReader(){
         HashMap<String,Integer> arrlis = new HashMap<>();
-        String s;
+        String s,se;
         try {
             File fil = new File("E:\\Java_Core_Assignments\\Assignment_1\\words.txt");
             Scanner read = new Scanner(fil);
             while(read.hasNextLine()){
-                s = read.nextLine();
+                se = read.nextLine();
+                s = se.toUpperCase();
                 arrlis.put(s,0);
             }
         }catch(Exception e){

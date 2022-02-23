@@ -1,6 +1,18 @@
 test.txt
+<<<<<<< HEAD
 .idea/
 Java_Core_Assignments.iml
 emp_info.txt
 out/
 ShapeName.class
+=======
+wow.txt
+.idea/
+Assignment_3/
+Assignment_4/
+Assignment_5/
+Assignment_1/
+Java_Core_Assignments.iml
+emp_info.txt
+out/
+>>>>>>> Assignment_2

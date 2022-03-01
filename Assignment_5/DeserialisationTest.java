@@ -8,8 +8,8 @@ public class DeserialisationTest {
         ArrayList<Object> lis = new ArrayList<>();
 
         try {
-            ObjectInputStream in = new ObjectInputStream(new FileInputStream("E:\\Java_Core_Assignments\\Assignment_5\\output1.ser"));
-            for(int i=0;i<4;i++){
+            ObjectInputStream in = new ObjectInputStream(new FileInputStream("output1.ser"));
+            for(int i=0;i<lis.size();i++){
                 Student ob = (Student)in.readObject();
                 System.out.println(ob);
                 lis.add(ob);

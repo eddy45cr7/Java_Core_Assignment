@@ -20,7 +20,7 @@ public class SerialisationTest {
             FileOutputStream file = new FileOutputStream("E:\\Java_Core_Assignments\\Assignment_5\\output2.ser");
             ObjectOutputStream ob = new ObjectOutputStream(file);
 
-            for(int i=0;i<4;i++){
+            for(int i=0;i<lis.size();i++){
                 ob.writeObject(lis.get(i));
             }
 

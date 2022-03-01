@@ -16,6 +16,8 @@ public class AccountOverdrawDemo implements Runnable {
             try {
                 Thread.sleep(100);
             } catch (InterruptedException ex) {
+                System.out.println("An Error Occurred!!");
+                ex.printStackTrace();
             }
             acct.withdraw(amt);
             System.out.println(Thread.currentThread().getName() + " completes the withdrawal, remaining balance : "+acct.getBalance());

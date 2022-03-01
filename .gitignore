@@ -10,12 +10,13 @@ ShapeName.class
 wow.txt
 .idea/
 Assignment_3/
-Assignment_4/
+Assignment_2/
 Assignment_5/
 Assignment_1/
 Java_Core_Assignments.iml
 emp_info.txt
 out/
+<<<<<<< HEAD
 >>>>>>> Assignment_2
 ||||||| 3b5012f
 test.txt
@@ -29,3 +30,8 @@ out/
 Java_Core_Assignments.iml
 ShapeName.class
 >>>>>>> Assignment_3
+||||||| b68c2e3
+>>>>>>> Assignment_2
+=======
+>>>>>>> Assignment_4
+>>>>>>> Assignment_4

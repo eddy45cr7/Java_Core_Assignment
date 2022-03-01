@@ -13,8 +13,13 @@ public class ShapeSelect {
         System.out.print("\nEnter the number corresponding to the shape : ");
         sel = read.nextLine();
         charr = sel.split("");
-        int asc = Integer.parseInt(sel);
-        System.out.println(asc);
-        return asc;
+        int asc = Integer.parseInt(charr[0]);
+        if(num.contains(asc)){
+            sh=num.indexOf(asc)+1;
+        }else{
+            throw new ArithmeticException("Invalid digit entered.");
+        }
+        System.out.println(sh);
+        return sh;
     }
 }

@@ -9,7 +9,7 @@ public class DeserialisationTest {
 
         try {
             ObjectInputStream in = new ObjectInputStream(new FileInputStream("output1.ser"));
-            for(int i=0;i<4;i++){
+            for(int i=0;i<lis.size();i++){
                 Student ob = (Student)in.readObject();
                 System.out.println(ob);
                 lis.add(ob);
